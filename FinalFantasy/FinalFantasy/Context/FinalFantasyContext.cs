@@ -44,16 +44,16 @@ namespace FinalFantasy.Context
             modelBuilder.Entity<Personaggio>()
                         .Property(p => p.PuntiVita)
                         .IsRequired();
-            
+
             modelBuilder.Entity<Personaggio>()
                         .HasDiscriminator<string>("Categoria")
                         .HasValue<Eroe>("Eroe")
-                        .HasValue<Mostro>("Mostro")
+                        .HasValue<Mostro>("Mostro");
                         
 
             
 
-            modelBuilder.Entity<Eroe>()
+            modelBuilder.Entity<Eroe>() 
                         .HasData(
                             new Eroe
                             {
@@ -69,20 +69,21 @@ namespace FinalFantasy.Context
                                 
                             }
                 );
-            modelBuilder.Entity<Mostro>().HasData(
-                    new Mostro
-                    {
-                        Nome = "Grok",
-                        PuntiVita = 10,
+                modelBuilder.Entity<Mostro>().HasData(
+                        new Mostro
+                        {
+                            Nome = "Grok",
+                            PuntiVita = 10,
 
-                    },
-                    new Mostro
-                    {
-                        Nome = "Shuk",
-                        PuntiVita = 20,
+                        },
+                        new Mostro
+                        {
+                            Nome = "Shuk",
+                            PuntiVita = 20,
 
-                    }
-                );
+                        }
+                    );
+
         }
 
     }

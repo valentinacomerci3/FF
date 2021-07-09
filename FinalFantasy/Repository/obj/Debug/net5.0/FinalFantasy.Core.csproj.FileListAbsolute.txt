@@ -1,0 +1,14 @@
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\bin\Debug\net5.0\FinalFantasy.Core.deps.json
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\bin\Debug\net5.0\FinalFantasy.Core.runtimeconfig.json
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\bin\Debug\net5.0\FinalFantasy.Core.runtimeconfig.dev.json
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\bin\Debug\net5.0\FinalFantasy.Core.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\bin\Debug\net5.0\ref\FinalFantasy.Core.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\bin\Debug\net5.0\FinalFantasy.Core.pdb
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.AssemblyInfoInputs.cache
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.AssemblyInfo.cs
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.csproj.CoreCompileInputs.cache
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\ref\FinalFantasy.Core.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.pdb
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\Repository\obj\Debug\net5.0\FinalFantasy.Core.genruntimeconfig.cache

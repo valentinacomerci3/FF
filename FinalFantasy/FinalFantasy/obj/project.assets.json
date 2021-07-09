@@ -1519,6 +1519,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "FinalFantasy.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
+        },
+        "compile": {
+          "bin/placeholder/FinalFantasy.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalFantasy.Core.dll": {}
+        }
+      },
+      "RepositoryMock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FinalFantasy.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RepositoryMock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepositoryMock.dll": {}
+        }
       }
     }
   },
@@ -5787,14 +5814,26 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "FinalFantasy.Core/1.0.0": {
+      "type": "project",
+      "path": "../Repository/FinalFantasy.Core.csproj",
+      "msbuildProject": "../Repository/FinalFantasy.Core.csproj"
+    },
+    "RepositoryMock/1.0.0": {
+      "type": "project",
+      "path": "../RepositoryMock/RepositoryMock.csproj",
+      "msbuildProject": "../RepositoryMock/RepositoryMock.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FinalFantasy.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.7",
+      "RepositoryMock >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5823,7 +5862,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\valentina.comerci\\Downloads\\FinalFantasy\\FinalFantasy\\RepositoryMock\\RepositoryMock.csproj": {
+              "projectPath": "C:\\Users\\valentina.comerci\\Downloads\\FinalFantasy\\FinalFantasy\\RepositoryMock\\RepositoryMock.csproj"
+            },
+            "C:\\Users\\valentina.comerci\\Downloads\\FinalFantasy\\FinalFantasy\\Repository\\FinalFantasy.Core.csproj": {
+              "projectPath": "C:\\Users\\valentina.comerci\\Downloads\\FinalFantasy\\FinalFantasy\\Repository\\FinalFantasy.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

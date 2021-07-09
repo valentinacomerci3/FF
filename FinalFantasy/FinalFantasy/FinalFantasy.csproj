@@ -18,4 +18,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryMock\RepositoryMock.csproj" />
+    <ProjectReference Include="..\Repository\FinalFantasy.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,15 @@
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\bin\Debug\net5.0\RepositoryMock.deps.json
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\bin\Debug\net5.0\RepositoryMock.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\bin\Debug\net5.0\ref\RepositoryMock.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\bin\Debug\net5.0\RepositoryMock.pdb
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\bin\Debug\net5.0\FinalFantasy.Core.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\bin\Debug\net5.0\FinalFantasy.Core.pdb
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.csprojAssemblyReference.cache
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.AssemblyInfoInputs.cache
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.AssemblyInfo.cs
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.csproj.CoreCompileInputs.cache
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.csproj.CopyComplete
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\ref\RepositoryMock.dll
+C:\Users\valentina.comerci\Downloads\FinalFantasy\FinalFantasy\RepositoryMock\obj\Debug\net5.0\RepositoryMock.pdb

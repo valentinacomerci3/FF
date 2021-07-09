@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalFantasy", "FinalFantasy\FinalFantasy.csproj", "{14BD53B6-1C83-4759-9331-E0C550CAE50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalFantasy", "FinalFantasy\FinalFantasy.csproj", "{14BD53B6-1C83-4759-9331-E0C550CAE50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalFantasy.Core", "Repository\FinalFantasy.Core.csproj", "{3CDADA83-3247-419A-BFF3-E49864A8D3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalFantasy.RepositoryEF", "FinalFantasy.RepositoryEF\FinalFantasy.RepositoryEF.csproj", "{B2D83BD8-DDF7-4066-8C0D-799F62354360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryMock", "RepositoryMock\RepositoryMock.csproj", "{B355E2EA-12CC-4E97-83F1-62F5E129F6B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{14BD53B6-1C83-4759-9331-E0C550CAE50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14BD53B6-1C83-4759-9331-E0C550CAE50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14BD53B6-1C83-4759-9331-E0C550CAE50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDADA83-3247-419A-BFF3-E49864A8D3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDADA83-3247-419A-BFF3-E49864A8D3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDADA83-3247-419A-BFF3-E49864A8D3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDADA83-3247-419A-BFF3-E49864A8D3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D83BD8-DDF7-4066-8C0D-799F62354360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D83BD8-DDF7-4066-8C0D-799F62354360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D83BD8-DDF7-4066-8C0D-799F62354360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D83BD8-DDF7-4066-8C0D-799F62354360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B355E2EA-12CC-4E97-83F1-62F5E129F6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B355E2EA-12CC-4E97-83F1-62F5E129F6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B355E2EA-12CC-4E97-83F1-62F5E129F6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B355E2EA-12CC-4E97-83F1-62F5E129F6B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

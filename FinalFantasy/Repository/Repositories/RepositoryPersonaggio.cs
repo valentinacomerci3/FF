@@ -13,5 +13,10 @@ namespace FinalFantasy.Core.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public static bool Add(Eroe mago)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

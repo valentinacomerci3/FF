@@ -1,4 +1,5 @@
 ﻿using FinalFantasy.Core.Models;
+using FinalFantasy.Core.Repositories;
 using RepositoryMock;
 using System;
 using System.Collections.Generic;
@@ -101,12 +102,101 @@ namespace FinalFantasy
         //
         //}
 
+        public static void AddEroe(Giocatore giocatore)
+        {
+            
+            Console.WriteLine("nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("livello:");
+            int livello = VerificaInput(5);
+            Console.WriteLine("Scegli un Eroe");
+            Console.WriteLine("0. Soldier");
+            Console.WriteLine("1. Wizard");
+            var categoria = (Categoria)Convert.ToInt32(Console.ReadLine());
+            if (categoria == Categoria.Soldier)
+            {
+                Console.WriteLine("Per selezionare il tipo di arma che preferisci dare al tuo eroe, inserisci il numero corrispondente:");
+                Console.WriteLine("1. Ascia");
+                Console.WriteLine("2. Mazza");
+                Console.WriteLine("3. Spada");
+                int arma = VerificaInput(3);
+                string tipoarma = null;
+                if (arma == 1)
+                {
+                    tipoarma = "Ascia";
+                }
+                else if (arma == 2)
+                {
+                    tipoarma = "Mazza";
+                }
+                else if (arma == 3)
+                {
+                    tipoarma = "Spada";
+                }
+                Eroe soldier = new Eroe()
+                {
+                    Nome = nome,
+                    Livello = livello,
+                    ArmaNome = tipoarma,
+                    Categoria = categoria,
+                    PuntiEsperienza = 0,
+                    GiocatoreNickname = giocatore.Nickname
+                };
+                if (RepositoryPersonaggio.Add(soldier))
+                {
+                    Console.WriteLine("Ottimo! L'eroe è stato registrato");
+                }
+                else
+                {
+                    Console.WriteLine("Ops, qualcosa è andato storto.");
+                };
+            }
+            else if (categoria == Categoria.Wizard)
+            {
+                Console.WriteLine("Scegli Arma");
+                Console.WriteLine("1. Arco");
+                Console.WriteLine("2. Bacchetta");
+                Console.WriteLine("3. Bastone ");
+                int arma = VerificaInput(3);
+                string tipoarma = null;
+                if (arma == 1)
+                {
+                    tipoarma = "Arco ";
+                }
+                else if (arma == 2)
+                {
+                    tipoarma = "Bacchetta";
+                }
+                else if (arma == 3)
+                {
+                    tipoarma = "Bastone ";
+                }
+                Eroe wizard = new Eroe()
+                {
+                    Nome = nome,
+                    Livello = livello,
+                    ArmaNome = tipoarma,
+                    Categoria = categoria,
+                    PuntiEsperienza = 0,
+                    //GiocatoreNickname = 
+                };
+                if (RepositoryPersonaggio.Add(wizard))
+                {
+                    Console.WriteLine("Successo");
+                }
+                else
+                {
+                    Console.WriteLine("Errore");
+                };
+            }
+        }
+
         public static int VerificaScelta(int sceltaMax)
         {
             bool check = Int32.TryParse(Console.ReadLine(), out int scelta);
             while (!check || scelta < 1 || scelta > sceltaMax)
             {
-                Console.WriteLine("Scegli tra le opzioni");
+                Console.WriteLine("");
                 check = Int32.TryParse(Console.ReadLine(), out scelta);
             }
             return scelta;
